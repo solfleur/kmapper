@@ -1,0 +1,9 @@
+[package]
+name = "kmapper"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.31", features = ["derive"] }
+inquire = "0.7.5"
+regex-lite = "0.1.6"
